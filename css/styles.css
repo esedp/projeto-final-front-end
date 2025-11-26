@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a {
+    color: #dbc605;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #f4f4f9;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000000;
+    border: 2px solid #dbc605;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.introducao {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    border: 2px solid #dbc605;
+    align-items: center;
+}
+
+.texto-introducao {
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.introducao-imagem {
+    margin-left: 40px;
+    border: 2px solid #ffffff;
+}
+
+.principal {
+    margin: 50px 250px 80px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.subtitulo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.paragrafo {
+    padding-bottom: 15px;
+}
+
+.imagem-paragrafo {
+    margin: 100px 0 0 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center; /* Alinha o ícone e o texto no cabeçalho */
+    margin: 0 15px;
+    font-size: 1.1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-left: 8px; /* Adiciona espaço entre o ícone e o texto */
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
+nav ul li span {
+    font-size: 1.5rem;
+}
+
+.principal-final {
+    display: flex;
+    align-items: center;
+    margin:50px 300px 50px 300px;
+    gap: 50px;
+}
+
+footer {
+    background-color: #000000;
+    border: 2px solid #dbc605;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 40px;
+    border: 2px solid #dbc605;
+    border-radius: 10px;
+    background-color: #111111;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.formulario-titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #f4f4f9;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #222;
+    color: white;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #dbc605;
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 30px;
+    background-color: #dbc605;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #f4e04d;
+    color: #000;
+}

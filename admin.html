@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Admin - Gerenciar Usuários</title>
+</head>
+<body>
+
+  <header>
+    <h1>Painel Administrativo</h1>
+    <nav>
+      <ul>
+        <li><span class="material-symbols-outlined">home</span> <a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="formulario">
+    <section>
+      <h2 class="formulario-titulo">Cadastro de Usuários</h2>
+
+      <form id="formAdmin">
+        <label for="nome">Nome do Usuário:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite o nome do usuário" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite o e-mail do usuário" required>
+
+        <div style="display: flex; gap: 10px; margin-top: 25px;">
+          <button type="submit">Cadastrar</button>
+          <button type="button" id="limparCampos">Limpar Campos</button>
+          <button type="button" id="excluirTodos">Excluir Todos</button>
+        </div>
+      </form>
+
+      <div style="margin-top: 30px;">
+        <label for="pesquisa">Pesquisar Usuário:</label>
+        <input type="text" id="pesquisa" placeholder="Digite nome ou e-mail para pesquisar">
+      </div>
+
+      <h3 style="margin-top: 30px;">Usuários Cadastrados</h3>
+      <ul id="listaUsuarios" style="margin-top: 15px;"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p class="paragrafo-rodape">&copy; 2025 Vegetarianismo sem mistério. Todos os direitos reservados.</p>
+    <p class="paragrafo-rodape">Entre em contato: <a href="mailto:contato@impactoconsumo.com">contato@impactoconsumo.com</a></p>
+    <p class="paragrafo-rodape"><a href="arquivos/Curriculo.pdf" target="_blank">Currículo do aluno</a></p>
+  </footer>
+
+  <script src="js/admin.js"></script>
+
+</body>
+</html>
