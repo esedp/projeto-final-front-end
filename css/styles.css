@@ -177,3 +177,62 @@ form button:hover {
     background-color: #f4e04d;
     color: #000;
 }
+
+
+/* ======== ACESSIBILIDADE ======== */
+.acessibilidade {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.acessibilidade button {
+    background-color: #dbc605;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.acessibilidade button:hover {
+    background-color: #f4e04d;
+}
+
+/* MODO ALTO CONTRASTE*/
+body.alto-contraste,
+body.alto-contraste header,
+body.alto-contraste footer,
+body.alto-contraste main,
+body.alto-contraste section,
+body.alto-contraste .introducao,
+body.alto-contraste .principal,
+body.alto-contraste .principal-final,
+body.alto-contraste .formulario {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+body.alto-contraste a {
+    color: #00ffff !important; /* azul claro */
+}
+
+body.alto-contraste form input,
+body.alto-contraste form textarea {
+    background-color: #222 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+body.alto-contraste form button {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+body.alto-contraste nav ul li a {
+    color: #fff !important;
+}
